@@ -16,9 +16,10 @@ Or install it yourself as:
 
     $ gem install datmachine
 
-## Usage
+## Documentation & Usage
 
-TODO: Write usage instructions here
+    * [Datmachine API with Ruby examples](https://datmachine.co/guides) 
+    * [Example scripts](https://github.com/datmachine/datmachine-ruby/tree/master/scenarios) 
 
 ## Contributing
 
