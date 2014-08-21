@@ -18,8 +18,8 @@ Or install it yourself as:
 
 ## Documentation & Usage
 
-    * [Datmachine API with Ruby examples](https://datmachine.co/guides) 
-    * [Example scripts](https://github.com/datmachine/datmachine-ruby/tree/master/scenarios) 
+* [Datmachine API with Ruby examples](https://datmachine.co/guides) 
+* [Example scripts](https://github.com/datmachine/datmachine-ruby/tree/master/scenarios) 
 
 ## Contributing
 
