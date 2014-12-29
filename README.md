@@ -1,6 +1,6 @@
 # Datmachine
 
-Easy to use business intelligence solution specifically designed to improve the performance of Internet companies.
+Business Analytics For SaaS Startups
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Documentation & Usage
 
-* [Datmachine API with Ruby examples](https://datmachine.co/guides) 
+* [Datmachine API with Ruby examples](https://datmachine.co/docs/api) 
 * [Example scripts](https://github.com/datmachine/datmachine-ruby/tree/master/scenarios) 
 
 ## Contributing

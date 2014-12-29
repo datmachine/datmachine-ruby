@@ -152,18 +152,6 @@ module Datmachine
           attr = method.to_s.chop
           @attributes[attr] = args[0]
         else
-          # This piece of code is a bit disgusting. We will clean it up soon,
-          # but basically, we were creating closures using this code snippet
-          # but those closures were transferred to the actual classes themselves
-          # so you would have something like BankAccount.new.account and this
-          # will give the last closure added for a BankAccount even if it has
-          # nothing to do with the actual class itself.
-          #
-          # This caused some weird errors, so the best thing to do was to just
-          # move this piece of code and "dynamically" enable it for all
-          # method requests that are essentially #{method}_uri.
-          #
-          # This solves the acute problem, for now.
           if @hyperlinks.has_key? "#{method}"
             value = @hyperlinks["#{method}"]
             result = value.call
